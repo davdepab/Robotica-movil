@@ -1,6 +1,6 @@
 # PRÁCTICA 1 - ROBOT ASPIRADOR
 
-El objetivo de esta práctica es cubrir el área mas grande posible a limpiar por el robot aspirador autónomo, para ello implementaré diversas formas de algoritmos de
+El objetivo de esta práctica es cubrir el área mas grande posible a limpiar por un robot aspirador autónomo, para ello implementaré diversas formas de algoritmos de
 cobertura. Para ello emplearemos algoritmos de cobertura online que implican datos del entorno y control del mismo en tiempo real. En primer lugar utilizaremos un
 movimiento básico reactivo, el robot irá de frente hasta que detecte un objeto/pared en un rango de "visión" determinado, tras el "impacto" retrocederá ligeramente, 
 girará a una velocidad constante durante un tiempo aleatorio (entre 2 y 3 segundos, para conseguir "aleatoriedad") y luego continuará avanzando de frente.

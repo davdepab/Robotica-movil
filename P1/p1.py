@@ -18,6 +18,7 @@ while True:
                 obstaculo = True
     
     if obstaculo:
+        # CAMBIAR SLEEP POR CONTEO DE ITERACIONES (TICKS)
         HAL.setV(0.0)
         time.sleep(0.1) # Parada breve para evitar cambios bruscos
         HAL.setV(-0.5)

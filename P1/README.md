@@ -5,6 +5,4 @@ cobertura online que implican datos del entorno y control del mismo en tiempo re
 
 ## Breve explicación del código:  
 En primer lugar obtenemos los datos del sensor de distancia laser mediante la capa de abstracción de hardware(HAL) y establecemos un flag que indicará si existe un
-obstáculo/pared, luego comprobaremos los datos del sensor en un rango de 50º-130º para únicamente tener en cuenta obstáculos que estén directamente enfrente, por otro lado establecemos la distancia de "impacto" a 0.2 metros, si este límite se rebasa consideraremos que tenemos un obstáculo delante y activaremos el flag.
-
-Cuando detectamos un objeto se ejecutará la secuencia de pasos explicados al principio: retroceso breve, giro aleatorio y continuación.
+obstáculo/pared, luego comprobaremos los datos del sensor en un rango de 50º-130º para únicamente tener en cuenta obstáculos que estén directamente enfrente, por otro lado establecemos la distancia de "impacto" a 0.2 metros, si este límite se rebasa consideraremos que tenemos un obstáculo delante y activaremos el flag, el cual provocará un salto de estado (de AVANZAR a FRENAR), una vez el robot haya frenado, tras un breve periodo de tiempo comenzará a retroceder para posteriormente girar y continuar su camino. Al implementar la lógica mediante una FSM (autómata de estados finito) tenemos el control del robot en todo momento lo que nos permite poder reaccionar en cualquier momento a cualquier imprevisto a diferencia de si hubiesemos implementado el código utilizando sleeps.

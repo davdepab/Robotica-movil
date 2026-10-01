@@ -8,6 +8,9 @@ En primer lugar obtenemos los datos del sensor de distancia laser mediante la ca
 obstáculo/pared, luego comprobaremos los datos del sensor en un rango de 50º-130º para únicamente tener en cuenta obstáculos que estén directamente enfrente, por otro lado establecemos la distancia de "impacto" a 0.2 metros, si este límite se rebasa consideraremos que tenemos un obstáculo delante y activaremos el flag, el cual provocará un salto de estado (de AVANZAR a FRENAR), una vez el robot haya frenado, tras un breve periodo de tiempo comenzará a retroceder para posteriormente girar y continuar su camino. Al implementar la lógica mediante una FSM (autómata de estados finito) tenemos el control del robot en todo momento lo que nos permite poder reaccionar en cualquier momento a cualquier imprevisto a diferencia de si hubiesemos implementado el código utilizando sleeps.
 
 ## Simulación:
-En la siguiente imagen podemos observar que este método obtiene bastante buenos resultados teniendo en cuenta su simplicidad:  
-<img width="3281" height="1910" alt="image" src="https://github.com/user-attachments/assets/a0aab271-a2db-4fbb-90a2-4dc5236b4414" />
+En la siguiente imagen podemos observar que este método obtiene bastante buenos resultados teniendo en cuenta la simplicidad del comportamiento choca-gira:  
+
+
+<img width="1312" height="589" alt="image" src="https://github.com/user-attachments/assets/f37b55af-b93b-49c0-9464-fd780609cd77" />
+
 

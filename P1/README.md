@@ -11,6 +11,9 @@ obstáculo/pared, luego comprobaremos los datos del sensor en un rango de 50º-1
 En la siguiente imagen podemos observar que este método obtiene bastante buenos resultados, obteniendo cerca de un 80% en un tiempo aproximado de 20 minutos, teniendo en cuenta la simplicidad del comportamiento choca-gira:  
 
 
-<img width="1312" height="581" alt="image" src="https://github.com/user-attachments/assets/91a3d173-dd1b-4612-a89a-aa69872ab415" />
+<img width="1312" height="581" alt="image" src="https://github.com/user-attachments/assets/91a3d173-dd1b-4612-a89a-aa69872ab415" />  
+
+
+## Vídeo de demostración: (https://youtu.be/xMGyclmgGD0)
 
 

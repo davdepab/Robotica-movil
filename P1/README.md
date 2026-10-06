@@ -19,3 +19,6 @@ En la siguiente imagen podemos observar que este método obtiene bastante buenos
 Como podemos ver en el vídeo, en una ejecución distinta a la de la captura anterior, de unos 15 minutos, el robot cubre alrededor de un 60% de la casa, lo que cuadra con el resultado del 80% en aproximadamente 20 minutos. 
 
 
+## ESPIRAL:  
+
+Al sustituir el estado de choca-gira por choca-espiral observo un mejor rendimiento en espacios abiertos ya que cubre el área más uniformemente, sin embargo, al adentrarse el robot en espacios cerrados se complica el que salga de ahí ya que con este estado los movimientos son circulares a diferencia del choca.gira que una vez gira vuelve a ir recto. Por lo tanto, he llegado a la conclusión de que lo ideal sería combinar el movimiento lineal con la espiral de forma aleatoria para que así haya alternativas en cada caso.

@@ -26,7 +26,7 @@ Al sustituir el estado de choca-gira por choca-espiral observo un mejor rendimie
 <img width="1324" height="860" alt="image" src="https://github.com/user-attachments/assets/8e5b90ae-0dcc-4239-8e14-f42bdfe42f4b" />  
 
 
-## [Vídeo de demostración](https://youtu.be/6Sh3VZ2ctaU)    
+## [Vídeo de demostración](https://youtu.be/ogJFFNhsy9A)    
 
 
 ## Movimiento en espiral y lineal combinados:  

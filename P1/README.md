@@ -23,5 +23,18 @@ Como podemos ver en el vídeo, en una ejecución distinta a la de la captura ant
 
 Al sustituir el estado de choca-gira por choca-espiral observo un mejor rendimiento en espacios abiertos ya que cubre el área más uniformemente, sin embargo, al adentrarse el robot en espacios cerrados se complica el que salga de ahí ya que con este estado los movimientos son circulares a diferencia del choca.gira que una vez gira vuelve a ir recto. Por lo tanto, he llegado a la conclusión de que lo ideal sería combinar el movimiento lineal con la espiral de forma aleatoria para que así haya alternativas en cada caso.  
 
+<img width="1324" height="860" alt="image" src="https://github.com/user-attachments/assets/8e5b90ae-0dcc-4239-8e14-f42bdfe42f4b" />  
 
-<img width="1324" height="860" alt="image" src="https://github.com/user-attachments/assets/8e5b90ae-0dcc-4239-8e14-f42bdfe42f4b" />
+
+## [Vídeo de demostración](https://youtu.be/6Sh3VZ2ctaU)    
+
+
+## Movimiento en espiral y lineal combinados:  
+
+Tras la conclusión del apartado "Movimiento en espiral" implementando el código que combina aleatoriamente movimiento lineal y en espiral he consegudio resultados mejores que el del comportamiento básico choca-gira, cubre una parte similar de la casa pero de forma más uniforme, sin dejar calvas por así decirlo.  
+
+<img width="1329" height="853" alt="image" src="https://github.com/user-attachments/assets/b1c9fef0-e30b-4778-8b60-9814f5b63b96" />  
+
+
+## [Vídeo de demostración](https://youtu.be/6Sh3VZ2ctaU)  
+

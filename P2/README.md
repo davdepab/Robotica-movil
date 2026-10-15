@@ -19,7 +19,10 @@ Mediante bitwise combino las máscaras para obtener una única y utilizando **We
 He utilizado dos controladores PD para calcular en cada iteración del bucle infinito tanto una velocidad lineal como una angular.
 
 ### CONTROLADOR PD VELOCIDAD ANGULAR:
-La velocidad angular se calcula realizando una resta del centroide de la máscara de la línea roja al centro real de la misma, obteniendose así el error, o variación que existe entre ambas al cual posteriormente multiplicaremos por una Kp obtenida de forma experimental. Por otro lado, obtenemos la derivada del error, que en tiempo discreto no es más que restar al error actual el error anterior, a este valor lo multiplicaremos por Kd, obtenida de la misma forma que Kp. El resultado de la suma de ambos errores multiplicados por sus constantes correspondientes será la velocidad angular que aplicaremos para que el F1 gire de forma controlada y fluida para seguir la línea roja.
+La velocidad angular se calcula realizando la resta del centroide de la máscara de la línea roja al centro real de la misma, obteniendose así el error, o variación que existe entre ambas al cual posteriormente multiplicaremos por una Kp obtenida de forma experimental. Por otro lado, obtenemos la derivada del error, que en tiempo discreto no es más que restar al error actual el error anterior, a este valor lo multiplicaremos por Kd, obtenida de la misma forma que Kp. El resultado de la suma de ambos errores multiplicados por sus constantes correspondientes será la velocidad angular que aplicaremos para que el F1 gire de forma controlada y fluida para seguir la línea roja.  
+
+### CONTROLADOR PD VELOCIDAD LINEAL:
+Para la velocidad lineal utilizo el valor absoluto del error obtenido anteriormente, el cual multiplico por una nueva constante Kpv, por otro lado obtengo la derivada de la misma forma que el anterior controlador salvo porque esta vez utilizo el error en valor absoluto. Este controlador funciona disminuyendo una velocidad lineal constante a medida que el error es más grande. La velocidad lineal aplicada al robot es igual a la velocidad constante menos el error total obtenido. Así consiguiendo una deceleración proporcional a la intensidad de la curva.
 
 
 

@@ -5,4 +5,8 @@ El objetivo de esta práctica consiste en, mediante un controlador PD en un bucl
 
 ## DESARROLLO DE LA PRÁCTICA Y BREVE EXPLICACIÓN DEL CÓDIGO:
 
-En primer lugar he tomado los datos obtenidos de la cámara mediante la abstracción ´´´HAL.getImage()´´´ 
+En primer lugar he tomado los datos obtenidos de la cámara mediante la abstracción 
+´´´python
+HAL.getImage()
+´´´
+

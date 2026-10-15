@@ -1,7 +1,7 @@
 
 # PRÁCTICA 2 - F1 SIGUE LÍNEAS
 
-El objetivo de esta práctica consiste en, mediante un controlador PD en un bucle infinito, conseguir que un Formula 1 logre recorrer de forma autónoma varios circuitos en el menor tiempo posible, únicamente guiándose a través de una cámara en el trazo de una línea roja.
+El objetivo de esta práctica consiste en, mediante un controlador PD en un bucle infinito, conseguir que un Formula 1 logre recorrer de forma autónoma varios circuitos en el menor tiempo posible, únicamente guiándose a través de una cámara sobre el trazo de una línea roja.
 
 ## DESARROLLO DE LA PRÁCTICA Y BREVE EXPLICACIÓN DEL CÓDIGO:
 

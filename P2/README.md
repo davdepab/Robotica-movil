@@ -17,6 +17,8 @@ Mediante bitwise combino las máscaras para obtener una única y utilizando **We
 <img width="1024" height="370" alt="image" src="https://github.com/user-attachments/assets/de0338ad-d785-4882-9c6c-1e7e89494fd4" />  
 
 He utilizado dos controladores PD para calcular en cada iteración del bucle infinito tanto una velocidad lineal como una angular.
+
+### CONTROLADOR PD VELOCIDAD ANGULAR:
 La velocidad angular se calcula realizando una resta del centroide de la máscara de la línea roja al centro real de la misma, obteniendose así el error, o variación que existe entre ambas al cual posteriormente multiplicaremos por una Kp obtenida de forma experimental. Por otro lado, obtenemos la derivada del error, que en tiempo discreto no es más que restar al error actual el error anterior, a este valor lo multiplicaremos por Kd, obtenida de la misma forma que Kp. El resultado de la suma de ambos errores multiplicados por sus constantes correspondientes será la velocidad angular que aplicaremos para que el F1 gire de forma controlada y fluida para seguir la línea roja.
 
 

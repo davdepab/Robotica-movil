@@ -1,8 +1,7 @@
 
 # PRÁCTICA 2 - F1 SIGUE LÍNEAS
 
-<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/03e16acc-7349-49ca-846b-5eb655519a76" />
-
+<img width="668" height="373" alt="image-removebg-preview" src="https://github.com/user-attachments/assets/c8f974a9-f7f2-4f72-af5b-eb86f23491b9" />
 
 El objetivo de esta práctica consiste en, mediante un controlador PID en un bucle infinito, conseguir que un Formula 1 logre recorrer de forma autónoma varios circuitos en el menor tiempo posible, únicamente guiándose a través de una cámara sobre el trazo de una línea roja.
 

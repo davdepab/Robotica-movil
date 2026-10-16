@@ -37,7 +37,9 @@ En primer lugar muestro el comportamiento del robot al no visualizar la línea, 
 Cabe recalcar que todas las simulaciones realizadas han sido bajo el modelo holonómico, ninguna implementación ha sido implementada bajo el modelo Ackermann
 
 ### Modelo Ackermann:  
-<img width="638" height="550" alt="image" src="https://github.com/user-attachments/assets/3ff5eb83-c22b-443f-9028-5ce3c1451d86" />
+<img width="638" height="550" alt="image" src="https://github.com/user-attachments/assets/3ff5eb83-c22b-443f-9028-5ce3c1451d86" />  
+
+
 ### Modelo holonómico:  
 <img width="438" height="456" alt="image" src="https://github.com/user-attachments/assets/0743a542-511f-474f-8aa3-1836215ddf60" />
 

@@ -34,6 +34,10 @@ En primer lugar muestro el comportamiento del robot al no visualizar la línea, 
 
 ### VÍDEOS:  
 
+Cabe recalcar que todas las simulaciones realizadas han sido bajo el modelo holonómico, ninguna implementación ha sido implementada bajo el modelo Ackermann
+
+### [Modelo Ackermann](<img width="638" height="550" alt="image" src="https://github.com/user-attachments/assets/86b71cad-69ff-4817-8588-88828b8490a5" />)
+
 ### [Circuito simple](https://youtube.com/shorts/LcykYA4Ir8Q?feature=share)    
 ### [Nurburging](https://youtube.com/shorts/jDJJP8_daNA)
 ### [Montreal](https://youtu.be/ogd5Wwj7WUw)

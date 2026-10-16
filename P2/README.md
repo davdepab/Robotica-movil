@@ -34,7 +34,9 @@ En primer lugar muestro el comportamiento del robot al no visualizar la línea, 
 
 ### VÍDEOS:  
 
-## [Circuito simple](https://youtube.com/shorts/LcykYA4Ir8Q?feature=share)    
+### [Circuito simple](https://youtube.com/shorts/LcykYA4Ir8Q?feature=share)    
+### [Nurburging](https://youtube.com/shorts/jDJJP8_daNA)
+### [Montreal](https://youtu.be/ogd5Wwj7WUw)
 
 
 

@@ -26,6 +26,10 @@ La velocidad angular se calcula realizando la resta del centroide de la máscara
 ### CONTROLADOR PD VELOCIDAD LINEAL:
 Para la velocidad lineal utilizo el valor absoluto del error obtenido anteriormente, el cual multiplico por una nueva constante Kpv, por otro lado obtengo la derivada de la misma forma que el anterior controlador salvo porque esta vez utilizo el error en valor absoluto. Este controlador funciona disminuyendo una velocidad lineal constante a medida que el error es más grande. La velocidad lineal aplicada al robot es igual a la velocidad constante menos el error total obtenido. Así consiguiendo una deceleración proporcional a la intensidad de la curva.
 
+### DEMOSTRACIONES DEL FUNCIONAMIENTO:
 
+En primer lugar muestro el comportamiento del robot al no visualizar la línea, lo único que hará será retroceder a la par que gira hasta que la línea sea visible para así comenzar a recorrer el circuito:  
+
+<img width="800" height="918" alt="ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/8154ccd8-b591-48ef-92ad-d05e1ac1ccfb" />
 
 

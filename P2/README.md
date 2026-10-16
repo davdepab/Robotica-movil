@@ -30,6 +30,6 @@ Para la velocidad lineal utilizo el valor absoluto del error obtenido anteriorme
 
 En primer lugar muestro el comportamiento del robot al no visualizar la línea, lo único que hará será retroceder a la par que gira hasta que la línea sea visible para así comenzar a recorrer el circuito:  
 
-<img width="800" height="918" alt="ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/8154ccd8-b591-48ef-92ad-d05e1ac1ccfb" />
+<img width="400" height="" alt="ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/8154ccd8-b591-48ef-92ad-d05e1ac1ccfb" />
 
 

@@ -9,7 +9,8 @@ El objetivo de esta práctica consiste en, mediante el algoritmo reactivo de Cam
 En primer lugar he tomado los datos del sensor láser mediante la abstracción **HAL.getLaserData()**, la cual me proporciona 180 distancias. Lo que he hecho ha sido parsearlas obteniendo tanto sus coordenadas polares (distancia y ángulo) como cartesianas (x e y) referenciadas al frente del robot. 
 Por otro lado, con **WebGUI.getNextTarget()** y **HAL.getPose3d()** extraigo la ubicación global de la meta y del coche. Utilizando trigonometría, convierto la coordenada absoluta del objetivo a una coordenada relativa centrada en el eje del vehículo, lo cual facilita mucho el cálculo de los vectores.
 
-<img width="720" height="355" alt="image" src="URL_IMAGEN_VECTORES" />
+<img width="423" height="395" alt="image" src="https://github.com/user-attachments/assets/7d45f82e-0fb0-4b4b-b9dd-db28276f899d" />
+
 
 Mediante la suma vectorial de las componentes resultantes combino las fuerzas calculadas y utilizando **WebGUI.showForces()** las muestro en pantalla para visualizar los tres vectores (Atracción, Repulsión y Resultante) en tiempo real.
 

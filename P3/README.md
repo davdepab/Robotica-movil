@@ -2,7 +2,7 @@
 
 <img width="640" height="410" alt="image" src="https://github.com/user-attachments/assets/99a84daf-5c51-4701-af03-1d7b60050ecd" />
 
-El objetivo de esta práctica consiste en, mediante el algoritmo reactivo de Campos Potenciales Virtuales (VFF) iterando en un bucle infinito, conseguir que un vehículo autónomo logre recorrer una pista esquivando obstáculos dinámicamente en tiempo real, guiándose únicamente mediante su odometría y las lecturas de un sensor LiDAR de 180 grados.
+El objetivo de esta práctica consiste en, mediante el algoritmo reactivo de Campos Potenciales Virtuales (VFF) iterando en un bucle infinito, conseguir que un vehículo autónomo logre recorrer una pista esquivando obstáculos dinámicamente en tiempo real, guiándose únicamente mediante una navegación global dada en forma de waypoints y las lecturas de un sensor LiDAR de 180 grados.
 
 ## DESARROLLO DE LA PRÁCTICA Y BREVE EXPLICACIÓN DEL CÓDIGO:
 

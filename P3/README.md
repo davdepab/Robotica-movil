@@ -32,9 +32,11 @@ La suma de las componentes del vector de atracción y repulsión conforma el vec
 
 ### DEMOSTRACIONES DEL FUNCIONAMIENTO:
 
-En primer lugar muestro el comportamiento del robot al acercarse frontalmente a un obstáculo y desenvolverse en pasillos. Se observa cómo el vehículo adapta su velocidad y gira de forma reactiva sin quedarse atascado. Al inicio de cada iteración, se reinician todas las variables de cálculo para asegurar un comportamiento puramente reactivo:
+En primer lugar muestro el comportamiento del robot al acercarse frontalmente a un obstáculo y desenvolverse en pasillos. Se observa cómo el vehículo adapta su velocidad y gira de forma reactiva sin quedarse atascado. Al inicio de cada iteración, se reinician todas las variables de cálculo para asegurar un comportamiento puramente reactivo:  
 
-<img width="400" height="" alt="gif_demostracion" src="URL_GIF_DEMOSTRACION" />
+
+<img width="420" height="450" alt="giphy" src="https://github.com/user-attachments/assets/d86c7829-45c0-4e8d-93ea-fb2d8fe38639" />  
+
 
 ### VÍDEOS:
 

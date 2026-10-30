@@ -21,13 +21,13 @@ Mediante la suma vectorial de las componentes resultantes combino las fuerzas ca
 
 He utilizado dos componentes vectoriales para calcular en cada iteración del bucle infinito tanto la trayectoria deseada como las acciones evasivas, calculando a partir de ellas tanto una velocidad lineal como una angular.
 
-### VECTOR ATRACTIVO (TARGET):
+### 🟢 VECTOR ATRACTIVO (TARGET):
 Esta fuerza empuja el vehículo hacia la meta a través de una serie de waypoints establecidos como navegación global. Se calcula utilizando la posición relativa del objetivo. Para evitar que la fuerza disminuya drásticamente al acercarse al punto (lo cual provocaría sobrepasos por inercia o desvíos bruscos frente a obstáculos), se normaliza el vector. De esta forma adquiere una magnitud constante de 1, a la cual posteriormente multiplicaremos por una **K_TAR** obtenida de forma experimental. Además, si el coche entra en el radio de tolerancia del waypoint, se establece como alcanzado utilizando **target.setReached(True)** para forzar el paso al siguiente punto.
 
-### VECTOR REPULSIVO (OBSTÁCULOS):
+### 🔴 VECTOR REPULSIVO (OBSTÁCULOS):
 Esta fuerza aleja el vehículo de las paredes. Para calcularla, sumo los 180 rayos del láser. A cada rayo se le aplica la ley de la inversa del cuadrado para que los objetos cercanos generen un rechazo exponencial frente a los lejanos. Adicionalmente, he implementado un sistema de zonificación de pesos: los rayos frontales aplican el 100% de su repulsión, mientras que los laterales solo aplican un 30%. Esto permite que el robot circule paralelo a las paredes de los pasillos sin sufrir oscilaciones laterales. Al total se le multiplica por una constante **K_OBS** pequeña para calibrar la fuerza. Este vector no se normaliza, preservando así la física exponencial de los impactos cercanos.
 
-### VECTOR RESULTANTE Y VELOCIDADES:
+### 🔵 VECTOR RESULTANTE Y VELOCIDADES:
 La suma de las componentes del vector de atracción y repulsión conforma el vector resultante. Para la velocidad angular, extraigo el ángulo exacto de esta fuerza resultante mediante la función **math.atan2()**. Esto fuerza al coche a dar volantazos agresivos de evasión si hay un choque frontal inminente. Por otro lado, la velocidad lineal disminuye proporcionalmente al riesgo: el algoritmo registra la "distancia efectiva" más pequeña obtenida por el láser y frena el vehículo si se acerca demasiado a un muro frontal, manteniendo siempre una velocidad mínima constante para evitar que el coche se quede completamente detenido.
 
 ### DEMOSTRACIONES DEL FUNCIONAMIENTO:

@@ -40,4 +40,4 @@ En primer lugar muestro el comportamiento del robot al acercarse frontalmente a 
 
 Cabe recalcar que todas las simulaciones realizadas han sido ejecutadas garantizando un comportamiento fluido sin oscilaciones bruscas, logrado gracias a la mitigación del peso de las lecturas laterales del LiDAR.
 
-### [Vídeo de demostración]((https://youtube.com/shorts/gHH--5v6LXI))
+### [Vídeo de demostración](https://youtube.com/shorts/gHH--5v6LXI)

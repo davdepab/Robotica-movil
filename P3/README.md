@@ -15,7 +15,8 @@ Mediante la suma vectorial de las componentes resultantes combino las fuerzas ca
 
 ## ALGORITMO VFF (VIRTUAL FORCE FIELD):
 
-<img width="1024" height="370" alt="image" src="URL_IMAGEN_ESQUEMA" />
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/c4e60873-9499-4413-ac83-ff2b0dc16b0d" />  
+
 
 He utilizado dos componentes vectoriales para calcular en cada iteración del bucle infinito tanto la trayectoria deseada como las acciones evasivas, calculando a partir de ellas tanto una velocidad lineal como una angular.
 

@@ -36,4 +36,4 @@ En cada iteración del bucle principal, **conduccion_ruta()** toma el primer pun
 
 Se muestran distintos recorridos por la ciudad (trayectos cortos, cruces y rutas de larga distancia rodeando múltiples manzanas), comprobando cómo el gradiente rodea los edificios engrosados y el taxi mantiene el centro del carril hasta frenar en el destino:
 
-### [Vídeo de demostración](https://youtu.be/_F9ifjy6Hp8)
+### [Vídeo de demostración](https://youtu.be/nFW_UkFHBRM)

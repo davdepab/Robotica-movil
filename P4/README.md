@@ -17,7 +17,7 @@ Finalmente, represento visualmente tanto el mapa de distancias normalizado en es
 
 ## PLANIFICACIÓN Y CONTROL:
 
-<img width="821" height="573" alt="image" src="https://github.com/user-attachments/assets/1911712a-d61c-46a8-a279-32246580e74c" />
+<img width="962" height="573" alt="image" src="https://github.com/user-attachments/assets/ed9b25bd-77fe-4ffe-b8ed-35a652df9f98" />
 
 El sistema divide la navegación en tres fases diferenciadas: modelado del entorno con márgenes de seguridad, cálculo del camino mínimo y control continuo de velocidades.
 

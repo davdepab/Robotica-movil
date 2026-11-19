@@ -11,7 +11,7 @@ En primer lugar, cargo el mapa binario de la ciudad mediante **WebGUI.getMap()**
 
 Dentro del bucle infinito regulado por **Frequency.tick()**, compruebo si el usuario ha seleccionado un nuevo destino con **WebGUI.getTargetPose()**. Cuando cambia la meta, transformo las coordenadas del mundo (metros) a celdas de la matriz mediante **WebGUI.worldToGrid()**, ejecuto la propagación **wavefront()** y extraigo la trayectoria con **calcular_ruta()**.
 
-<img width="821" height="286" alt="image" src="https://github.com/user-attachments/assets/8bc20dce-eef2-4d5d-a501-22cc038c2ee2" />
+<img width="962" height="285" alt="image" src="https://github.com/user-attachments/assets/fccc64ef-1b52-4d8f-bb1b-0db8cb3480b3" />
 
 Finalmente, represento visualmente tanto el mapa de distancias normalizado en escala de grises mediante **WebGUI.showNumpy()** como la trayectoria resultante con **WebGUI.showPath()**, mientras la función **conduccion_ruta()** guía al vehículo en cada iteración.
 
